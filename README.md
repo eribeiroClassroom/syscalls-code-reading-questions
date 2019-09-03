@@ -1,4 +1,4 @@
-# syscalls-code-reading-questions
+# Syscalls code-reading questions
 
 ## Objectives
 
