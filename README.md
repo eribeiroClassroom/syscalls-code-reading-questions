@@ -43,3 +43,17 @@ Example of how to add a figure to markdown text
 
 ![](Ubuntu_16.04_Desktop.png)
 
+
+## Begin your assignment 
+
+### Configure your kernel 
+
+For some OS/161 assignments, the *configuration file* will be provided to you as part of the repository. For this first assignment, you will simply create a new kernel-configuration file by duplicating an existing configuration file by calling the following commands on your Linux terminal: 
+
+```shell
+cd kern/conf  
+cp DUMBVM ASST1
+./config ASST1
+''' 
+
+The ./config script will create a new configuration directory. You should now see an ASST1 directory in the kern/compile/ directory.
