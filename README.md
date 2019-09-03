@@ -56,6 +56,6 @@ cp DUMBVM ASST1
 The ./config script will create a new configuration directory. You should now see an ASST1 directory in the kern/compile/ directory.
 
 2. Clone the assignment repository. 
-3. Write your answers into the file OS161_CodeReading01.md.  
-4. Commit and push the changes into the assignment's GitHub repository. 
+3. Write your answers into the file OS161_CodeReading01.md. Illustrate your answers with relevant code extracts from OS/161 and with screenshots of the kernel running or debuging sessions.   
+4. Commit and push the changes into the assignment's GitHub repository. Remember that all new files must be added prior to committing. Also, all images referred by the markdown must also be uploaded to the repository. 
 
