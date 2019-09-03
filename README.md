@@ -46,9 +46,7 @@ Example of how to add a figure to markdown text
 
 ## Begin your assignment 
 
-### Configure your kernel 
-
-For some OS/161 assignments, the *configuration file* will be provided to you as part of the repository. For this first assignment, you will simply create a new kernel-configuration file by duplicating an existing configuration file by calling the following commands on your Linux terminal: 
+1. Configure your kernel for assignment ASST1. For some OS/161 assignments, the *configuration file* will be provided to you as part of the repository. For this first assignment, you will simply create a new kernel-configuration file by duplicating an existing configuration file by calling the following commands on your Linux terminal: 
 
 ```shell
 cd kern/conf  
@@ -56,3 +54,8 @@ cp DUMBVM ASST1
 ``` 
 
 The ./config script will create a new configuration directory. You should now see an ASST1 directory in the kern/compile/ directory.
+
+2. Clone the assignment repository. 
+3. Write your answers into the file OS161_CodeReading01.md.  
+4. Commit and push the changes into the assignment's GitHub repository. 
+
