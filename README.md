@@ -13,12 +13,12 @@ To complete the OS/161 assignments of this course, you will need to get your han
 
 To guide you in this process, please write up and hand in answers to the questions found below.  
 
-Note: in these questions, and throughout the course of the semester, we will refer to the terms *trap*, *interrupt*, *exception*, and *system call*. Although these terms might take on different meanings in different classes, in OS/161, they mean the following:
+Note: in these questions, and throughout the course of the semester, we will refer to the terms "trap", "interrupt", "exception", and "system call". Although these terms might take on different meanings in different classes, in OS/161, they mean the following:
 
-- We use *trap* as a generic term of transferring control into the kernel.
-- We use *exception* for events that are synchronous with respect to user processes and cause a trap into the kernel: these include things like divide-by-0 or NULL pointer dereference exceptions and the trap caused by the syscall instruction in MIPS.
-- We use *interrupt* for asynchronous events that cause a trap into the kernel: this includes things like interrupts from the serial console hardware, the timer hardware, etc.
-- We use *system call* for synchronous requests user processes make to request service from the OS: system calls are invoked using traps -- specifically using the syscall instruction on MIPS.
+- We use "trap" as a generic term of transferring control into the kernel.
+- We use "exception" for events that are synchronous with respect to user processes and cause a trap into the kernel: these include things like divide-by-0 or NULL pointer dereference exceptions and the trap caused by the syscall instruction in MIPS.
+- We use "interrupt" for asynchronous events that cause a trap into the kernel: this includes things like interrupts from the serial console hardware, the timer hardware, etc.
+- We use "system call" for synchronous requests user processes make to request service from the OS: system calls are invoked using traps -- specifically using the syscall instruction on MIPS.
 
 
 
@@ -51,11 +51,12 @@ Example of how to add a figure to markdown text
 ```shell
 cd kern/conf  
 cp DUMBVM ASST1
+./config ASST1
 ``` 
 
-The ./config script will create a new configuration directory. You should now see an ASST1 directory in the kern/compile/ directory.
+The `./config` script will create a new configuration directory. You should now see an `ASST1` directory in the `kern/compile/` directory.
 
 2. Clone the assignment repository. 
-3. Write your answers into the file OS161_CodeReading01.md. Illustrate your answers with relevant code extracts from OS/161 and with screenshots of the kernel running or debuging sessions.   
+3. Write your answers into the file `OS161_CodeReading01.md`. Illustrate your answers with relevant code extracts from OS/161 and with screenshots of the kernel running or debuging sessions.   
 4. Commit and push the changes into the assignment's GitHub repository. Remember that all new files must be added prior to committing. Also, all images referred by the markdown must also be uploaded to the repository. 
 
