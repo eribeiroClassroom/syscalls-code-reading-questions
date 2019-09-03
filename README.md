@@ -53,7 +53,6 @@ For some OS/161 assignments, the *configuration file* will be provided to you as
 ```shell
 cd kern/conf  
 cp DUMBVM ASST1
-./config ASST1
-''' 
+``` 
 
 The ./config script will create a new configuration directory. You should now see an ASST1 directory in the kern/compile/ directory.
